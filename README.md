@@ -17,6 +17,10 @@ open Reflua.xcworkspace
 
 생성된 `Reflua` scheme을 선택해 시뮬레이터에서 실행합니다. Xcode 프로젝트 파일은 Tuist가 생성하므로 커밋하지 않습니다.
 
+## CI
+
+GitHub Actions는 `main` 대상 PR과 `main` 브랜치 푸시에서 Tuist 프로젝트를 생성하고 iOS Simulator용 Debug 빌드를 실행합니다. 현재 저장소에는 테스트 타깃이 없어 CI는 빌드까지 확인합니다.
+
 ## GitHub 작업 흐름
 
 1. 작업 전에 Issue를 만들고 `[feat]`, `[fix]`, `[design]`, `[refactor]`, `[docs]`, `[chore]` 중 작업 유형을 제목에 표시합니다.
