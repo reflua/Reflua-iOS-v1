@@ -1,0 +1,16 @@
+# macOS and Xcode
+.DS_Store
+*.xcuserstate
+*.xcuserdatad/
+DerivedData/
+Derived/
+
+# Tuist generated files and caches
+*.xcodeproj/
+*.xcworkspace/
+Tuist/Cache/
+.tuist-cache/
+.build/
+
+# Swift Package Manager generated workspace data
+.swiftpm/xcode/package.xcworkspace/
